@@ -1,0 +1,14 @@
+[2020-08-09 15:13:05] local.ERROR: Too many arguments, expected arguments "command". {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): Too many arguments, expected arguments \"command\". at /home/deyvi/ProyectosLaravel/proyecto1/vendor/symfony/console/Input/ArgvInput.php:171)
+[stacktrace]
+#0 /home/deyvi/ProyectosLaravel/proyecto1/vendor/symfony/console/Input/ArgvInput.php(82): Symfony\\Component\\Console\\Input\\ArgvInput->parseArgument()
+#1 /home/deyvi/ProyectosLaravel/proyecto1/vendor/symfony/console/Input/Input.php(55): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#2 /home/deyvi/ProyectosLaravel/proyecto1/vendor/symfony/console/Command/Command.php(217): Symfony\\Component\\Console\\Input\\Input->bind()
+#3 /home/deyvi/ProyectosLaravel/proyecto1/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#4 /home/deyvi/ProyectosLaravel/proyecto1/vendor/symfony/console/Application.php(911): Illuminate\\Console\\Command->run()
+#5 /home/deyvi/ProyectosLaravel/proyecto1/vendor/symfony/console/Application.php(264): Symfony\\Component\\Console\\Application->doRunCommand()
+#6 /home/deyvi/ProyectosLaravel/proyecto1/vendor/symfony/console/Application.php(140): Symfony\\Component\\Console\\Application->doRun()
+#7 /home/deyvi/ProyectosLaravel/proyecto1/vendor/laravel/framework/src/Illuminate/Console/Application.php(93): Symfony\\Component\\Console\\Application->run()
+#8 /home/deyvi/ProyectosLaravel/proyecto1/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#9 /home/deyvi/ProyectosLaravel/proyecto1/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#10 {main}
+"} 
